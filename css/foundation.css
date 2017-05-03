@@ -571,13 +571,16 @@ button
     display: none !important;
 }
 
-.row
+@media (min-width:80em)
 {
-    max-width: 75rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    .row
+    {
+        max-width: 75rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 }
 
 .row::before, .row::after
@@ -5718,4 +5721,22 @@ table.hover tr:nth-of-type(even):hover
 }
 
 /*# sourceMappingURL=foundation.css.map */
+
+@media (min-width:48em) and (max-width:79.9375em)
+{
+    .row
+    {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+@media (max-width:47.9375em)
+{
+    .row
+    {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
 

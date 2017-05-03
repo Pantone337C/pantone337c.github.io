@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Campagne réouverture du Lutétia</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="project_v2.css" />
+        <link rel="stylesheet" href="animate.css" />
+        <link href="https://fonts.googleapis.com/css?family=Overpass+Mono|Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+        <script src="js/vendor/modernizr.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <section class="main">
+            <div class="row nav_container">
+                <div class="columns large-12 medium-12 small-12 navigation">
+                    <a href="index.html" class="small_button">⇠ Retour à l'accueil</a>
+                </div>
+            </div>
+            <div class="row main_container">
+                <div class="columns medium-12 large-12 blueBackground ">
+                    <div class="row carousel_container ">
+                        <div class="owl-carousel">
+                            <div class="owl-item" data-hash="quatre">
+                                <img src="assets/projects/lutetia/poster.jpg" />
+                            </div>
+                            <div class="owl-item" data-hash="zero">
+                                <img src="assets/projects/lutetia/brochure_fermee.jpg" />
+                            </div>
+                            <div class="owl-item" data-hash="un">
+                                <img src="assets/projects/lutetia/papeterie.jpg" />
+                            </div>
+                            <div class="owl-item" data-hash="deux">
+                                <img src="assets/projects/lutetia/brochure_ouverte.jpg" />
+                            </div>
+                            <div class="owl-item" data-hash="trois">
+                                <img src="assets/projects/lutetia/parfum.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row description_container">
+                        <div class="columns small-12 description large-10 medium-10">
+                            <h2>Campagne réouverture du Lutétia</h2>
+                            <p class="tags">.identité</p>
+                            <p class="tags">.direction artistique</p>
+                            <p class="tags">.packaging</p>
+                            <p class="texte">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                        <div class="columns thumbnails_container large-1 medium-1 small-12 hide-for-small-only">
+                            <div class="thumbnails">
+                                <a class="thumbnail_main" href="#un">
+                                    <img src="assets/projects/lutetia/papeterie.jpg" />
+                                </a>
+                                <a class="thumbnail_main" href="#deux">
+                                    <img src="assets/projects/lutetia/brochure_ouverte.jpg" />
+                                </a>
+                                <a class="thumbnail_main" href="#trois">
+                                    <img src="assets/projects/lutetia/parfum.jpg" />
+                                </a>
+                                <a class="thumbnail_main" href="#zero">
+                                    <img src="assets/projects/lutetia/brochure_fermee.jpg" />
+                                </a>
+                                <a class="thumbnail_main" href="#quatre">
+                                    <img src="assets/projects/lutetia/poster.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/vendor/jquery.min.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+      $(document).ready(function(){
+  			$('.owl-carousel').owlCarousel({
+                margin:10,
+                loop:true,
+                margin:0,
+                autoWidth:true,
+                items:5,
+                center: true,
+                autoplay: true,
+                autoplayHoverPause: false,
+                autoplaySpeed: 1000,
+                URLhashListener: true,
+                startPosition: 'un',
+                fluidSpeed: 1000,
+})
+});
+    </script>
+    </body>
+</html>

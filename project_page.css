@@ -91,3 +91,10 @@
     font-size: 1.4em;
 }
 
+.thumb {
+  list-style: none;
+}
+
+.thumb .double {
+  list-style: none;
+}

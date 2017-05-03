@@ -7,7 +7,6 @@
     padding-bottom: 30px;
 }
 
-
 .blueBackground
 {
     background-color: #3c44d1;
@@ -452,10 +451,13 @@
 {
 }
 
-
 .scale-anm
 {
     transform: scale(1);
     -webkit-transform: scale(1);
+}
+
+images_wrapper
+{
 }
 
