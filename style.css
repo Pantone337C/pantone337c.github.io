@@ -1,5 +1,45 @@
 
 
+/* RESPONSIVE */
+
+@media (min-width:100em)
+{
+    .icons-large
+    {
+        width: 40px;
+    }
+}
+
+@media (min-width:80em) and (max-width:99.9375em)
+{
+    .icons-medium
+    {
+        width: 40px;
+    }
+}
+
+@media (max-width:79.9375em)
+{
+    .icons-small
+    {
+        width: 40px;
+    }
+}
+
+@media (max-width:48em)
+{
+    .menu_list a {
+        font-size: 0.35em;
+    }
+}
+
+@media (min-width:48em) and (max-width:75em)
+{
+    .menu_list a {
+        font-size: 0.5em;
+    }
+}
+
 #header
 {
     padding-top: 30px;
@@ -38,10 +78,8 @@
 
 .socialIcons img
 {
-
     padding: 0;
 }
-
 
 #introduction
 {
@@ -51,30 +89,6 @@
 #socialColumn
 {
     padding: 10px 20px 20px;
-}
-
-@media (min-width:100em)
-{
-    .icons-large
-    {
-        width: 40px;
-    }
-}
-
-@media (min-width:80em) and (max-width:99.9375em)
-{
-    .icons-medium
-    {
-        width: 40px;
-    }
-}
-
-@media (max-width:79.9375em)
-{
-    .icons-small
-    {
-        width: 40px;
-    }
 }
 
 .li_nav
@@ -91,7 +105,6 @@
     -moz-box-shadow: 0px 0px 10px 0px #FFFFFF;
     -o-box-shadow: 0px 0px 10px 0px #FFFFFF;
 }
-
 
 #portfolio_nav
 {
