@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
 
   $('socialIcons').mouseover(function(){
     $('icons-large').removeClass('iconGlow');
-    $(this).addClass('iconGlow');
+    $(this).addClass('iconGlowPink');
   });
 
 });
