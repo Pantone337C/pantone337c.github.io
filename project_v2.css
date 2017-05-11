@@ -259,29 +259,15 @@
       font-size: 1.8em;
   }
 
-.carousel_container {
-  height:  20em;
-  overflow: hidden;
-}
-
-.responsive_height img{
-  height: 20em !important;
-	width: auto !important;
-}
-
-
-}
-
-@media (min-width:48em) and (max-width:79.9375em)
-{
   .carousel_container {
-    height:  30em;
+    height:  20em;
     overflow: hidden;
   }
 
   .responsive_height img{
-    height: 30em !important;
-  	width: auto !important;
+    height: 20em !important;
+	   width: auto !important;
   }
+
 
 }
