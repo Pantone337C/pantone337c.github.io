@@ -254,18 +254,24 @@
   {
       font-size: 0.7em;
   }
+
+  .tanTags
+  {
+      font-size: 0.7em;
+  }
+
   .description h2
   {
       font-size: 1.8em;
   }
 
   .carousel_container {
-    height:  16em;
+    height:  14em;
     overflow: hidden;
   }
 
   .responsive_height img{
-    height: 16em !important;
+    height: 14em !important;
 	   width: auto !important;
   }
 }
