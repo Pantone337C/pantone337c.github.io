@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
    $(this).attr('src', $(this).data("src"));
   });
 
-  $('socialIcons').mouseover(function(){
+  $('icons-large').mouseover(function(){
     $('icons-large').removeClass('iconGlow');
     $(this).addClass('iconGlowPink');
   });
