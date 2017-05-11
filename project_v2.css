@@ -260,14 +260,12 @@
   }
 
   .carousel_container {
-    height:  20em;
+    height:  16em;
     overflow: hidden;
   }
 
   .responsive_height img{
-    height: 20em !important;
+    height: 16em !important;
 	   width: auto !important;
   }
-
-
 }
