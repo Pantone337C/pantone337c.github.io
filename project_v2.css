@@ -138,7 +138,9 @@
 }
 
 /* NAVIGATION */
-
+.button_right {
+  float: right;
+}
 .small_button
 {
     padding: 0.2em 0.5em;
