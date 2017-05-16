@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(window).on('load', function() {
 
   $('.slider').slick({
     slidesToShow: 1,

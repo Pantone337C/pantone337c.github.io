@@ -243,6 +243,8 @@
   margin : 0;
 }
 
+/* RESPONSIVE */
+
 @media (min-width:0em) and (max-width:47.9375em)
 {
   .pinkTags
